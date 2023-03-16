@@ -1,1 +1,116 @@
 /* your code here */
+body{
+	padding:0;
+	margin: 0;
+}
+footer{
+	padding:0;
+	margin: 0;
+}
+.fa {
+  padding: 11px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+	border-radius:50%;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+	border-radius:50%;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+	border-radius:50%;
+}
+
+.fa-youtube {
+  background: #FF0000;
+  color: white;
+	border-radius:50%;
+}
+
+.fa-instagram {
+  background: #C04000;
+  color: white;
+	border-radius:50%;
+}
+
+.content{
+/* 	display: flex; */
+	background: black;
+	color: white;
+	padding-bottom: 20px;
+}
+.top{
+	display: flex;
+	padding: 30px 20px 50px 20px;
+}
+.logo-details .logo_name{
+	font-size: 40px;
+	text-decoration: bold;
+}
+
+.media-icons a{
+	margin-right:20px;
+}
+.media-icons{
+	position: absolute;
+	left: 60%
+}
+
+.link-boxes{
+	display: flex;
+	justify-content: space-evenly;
+	padding:25px;
+}
+.link-boxes .line{
+	height:2px;
+	width:45px;
+	background:white;
+	margin-top:0;
+	padding-top: 0;
+	margin-bottom: 10px;
+}
+
+.link-boxes .head{
+	height:22px;
+	font-size: 22px;
+	matgin-bottom: 0;
+	padding-bottom:0;
+}
+.link-boxes p>a, p{
+	text-decoration:none;
+	text-decoration: bold;
+	color: grey;
+	font-size: 18px;
+}
+
+.bottom-details{
+	background: #5A5A5A;
+	padding:20px;
+}
+.bottom-details a{
+	text-decoration: none;
+	color: lightgray;
+	font-size: 19px;
+	position: absolute;
+	left: 78%
+}
+.bottom-details span{
+	color: lightgray;
+	font-size: 19px;
+}
